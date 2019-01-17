@@ -1,0 +1,93 @@
+.navbar-brand-custom{
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    background-color: #ddd;
+    transition: all .3s ease-in-out;
+}
+li.active a:hover{
+    color: lightgrey!important;
+    transition: all .3s ease-in-out;
+}
+hr{
+    border-top: 1px solid #ddd !important;
+}
+.container-main{
+    min-height: 500px;
+    padding-top: 5%;
+}
+.row-logowanie{
+    padding: 15px;
+    height: auto;
+    background-color: #ddd;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.container-logowanie{
+    padding-top: 20px;
+    min-height: 400px;
+}
+.login-form input {
+  outline: 0;
+  background: #f2f2f2;
+  border: 0;
+  margin: 15px 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 3px;
+}
+button.zaloguj_btn{
+    background-color: #3a3a3a;
+    color: #fff;
+    border: 1px solid #fff;
+    height: auto;
+    padding: 10px;
+    min-width: 500px;
+    border-radius: 5px;
+}
+button.zaloguj_btn:hover{
+    background-color: #575757;
+    transition: all .3s ease-in-out;
+}
+p.nazwa-klubu{
+    font-weight: bold;
+    font-size: 18px;
+}
+p.szczegoly{
+    font-size: 14px;
+}
+.kadraliczy{
+    padding-bottom: 25px;
+}
+span.kadra-span{
+    font-size: 14px;
+    font-weight: bold;
+}
+p.kadra-p{
+    font-size: 14px;
+    font-weight: bold;
+}
+img.kluby-img{
+    width: 20px;
+    height: 25px;
+}
+div.clubs-table-admins{
+    padding-top: 20px;
+}
+div.list-group-admin{
+    padding-top: 20px;
+}
+.row-form{
+    padding-top: 20px;
+}
+a.btn.btn-success.btn-wstecz{
+    padding-top: 20px;
+}
+.row-admins{
+    margin-bottom: 20px;
+}
+/*
+.table > tbody > tr > td.td-herb{
+    padding: 0px;
+}
